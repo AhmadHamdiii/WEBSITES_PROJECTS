@@ -1,0 +1,165 @@
+/* General */
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+/* News Bar*/
+
+.news{
+    background-color: #8c271e;
+    text-align: center;
+}
+
+.news p{
+    display: inline-block;
+    padding: 10px 0px;
+}
+
+.news p:nth-child(1){
+    color:white;
+    float: left;
+}
+
+.news p:nth-child(2){
+    color:white;
+}
+
+.news p:nth-child(2) span{
+    color: #fb0302;
+}
+
+.news .container div{
+    float: right;
+}
+
+.news .container div i{
+    padding: 10px 5px;
+}
+
+.news .container div i:nth-child(1){
+    color:#e1665b;
+}
+
+.news .container div i:nth-child(2){
+    color:#4365ae;
+}
+
+.news .container div i:nth-child(3){
+    color:#21a3f2;
+}
+
+/* nav bar*/
+.nav{
+    overflow: hidden;
+}
+
+.nav img{
+    height:45px;
+    padding: 5px 0px;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 21px 10px;
+}
+.nav ul li:hover{
+background-color: #8c271e;
+color:white;
+cursor: pointer;
+}
+
+/* Heading */
+.Heading{
+    text-align: center;
+    background-color: #de5549;
+}
+.Heading span{
+    font-size: 32px;
+    color:white;
+    padding: 50px 0px;
+    display: inline-block;
+}
+
+/* gallery */
+.gallery{
+    overflow: hidden;
+    padding: 3% 0%;
+}
+.gallery .card{
+    width:30.33%;
+    padding: 0% 1.5% 1.5%;
+    float: left;
+}
+
+.gallery .card img{
+    width:100%;
+}
+
+/* footer */
+.footer{
+    background-color: #8c271e;
+    text-align: center;
+}
+
+.footer ul li, .footer p, .footer .container div{
+    display: inline-block;
+}
+
+.footer .container div{
+    float: left;
+    
+}
+
+.footer p{
+    float: right;
+    color:white;
+    padding: 20px 0px;
+}
+
+.footer ul li{
+    color:white;
+    padding: 20px 10px;
+}
+
+.footer ul li:hover{
+    color:white;
+    background-color: #de5549;
+    cursor: pointer;
+    padding: 20px 10px;
+}
+
+.footer .container div i{
+    padding: 20px 5px;
+}
+
+.footer .container div i:nth-child(1){
+    color:#e1665b;
+}
+
+.footer .container div i:nth-child(2){
+    color:#4365ae;
+}
+
+.footer .container div i:nth-child(3){
+    color:#21a3f2;
+}

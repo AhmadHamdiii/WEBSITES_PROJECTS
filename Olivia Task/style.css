@@ -1,0 +1,178 @@
+/*general*/
+/*primary color : #1fd05e */ 
+body{
+    margin: 0px;
+    font-size: 0;
+}
+
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+/* Start Header */
+
+.header{
+    background-color: #1fd05e;
+}
+
+.container img{
+    width:50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.logo{
+    display: table;
+    padding: 10px 0;
+}
+
+img + div{
+    display: table-cell;
+    vertical-align: middle;
+    color:white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.Navbar{
+    display: table;
+    width: 100%;
+    /* padding: 10px 0; */
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    padding: 30px 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+li:hover{
+    background-color: #14b94e;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0;
+}
+
+/* start part2 header */
+
+.text{
+    width: 60%;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.text p{
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom:0px;
+    border-radius: 25px ;
+    -webkit-border-radius: 25px ;
+    -moz-border-radius: 25px ;
+    -ms-border-radius: 25px ;
+    -o-border-radius: 25px ;
+    font-family: sans-serif;
+    color: #555;
+}
+
+.text span{
+    display: inline-block;
+    margin: 15px 0px 5px 25px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.text input{
+    padding: 18px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border:none;
+    width:300px;
+    margin-right:10px; 
+    margin-bottom:20px; 
+}
+
+.text button{
+    background-color: #14b94e;
+    border:none;
+    color: white;
+    padding: 18px;
+    width:200px;
+    border-radius: 25px    ;
+    -webkit-border-radius: 25px    ;
+    -moz-border-radius: 25px    ;
+    -ms-border-radius: 25px    ;
+    -o-border-radius: 25px    ;
+}
+
+.vedio{
+    width:40%;
+    display: inline-block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+/* start section2 */
+.section2{
+    padding: 30px 0;
+    display: table;
+}
+
+.section2 .card{
+    width:33.33%;
+    display: table-cell;
+    
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.card p, .card span{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.card i{
+    font-size: 32px;
+    color: #1fd05e;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+.card p{
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+i + div{
+    width:90%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.card span{
+    color: #555;
+}

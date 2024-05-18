@@ -1,0 +1,19 @@
+body{
+    background-color: #;
+}
+.container{
+    display: flex;
+}
+.container div{
+    border: 2px #00082a solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 10px;
+}
+.container div i{
+    font-size: 50px;
+    margin: 4px;
+    color: #38aa1a;
+}
